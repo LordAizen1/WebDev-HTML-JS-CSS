@@ -1,0 +1,114 @@
+/*comment*/
+/*all of these elements below are selectors*/
+
+
+/*we gave any named id to an element to style it*/
+#row1 {
+  background-color: yellow;
+}
+
+#row2 {
+  background-color: orange;
+}
+
+#row3 {
+  background-color: lightblue;
+}/*comment*/
+/*all of these elements below are selectors*/
+
+
+/*we gave any named id to an element to style it*/
+/*
+#row1 {
+  background-color: yellow;
+}
+
+#row2 {
+  background-color: orange;
+}
+
+#row3 {
+  background-color: lightblue;
+}
+*/
+
+.para {
+  color: cyan;
+}
+
+body {
+  background-color: green;
+  opacity: 0.9;
+  /*background-image: url("https://moewalls.com/wp-content/uploads/2023/06/vegeta-ultra-ego-dragon-ball-super-thumb.jpg");*/
+}
+
+#margin {
+  margin: 20% 20% 20% 20%;
+}
+
+pre {
+  border-style: groove;
+  border-width: 3px;
+  border-color: red;
+  border-radius: 4px;
+}
+
+p {
+  padding: 20px 20px 20px 20px;
+}
+
+ul {
+  outline-style: solid;
+  outline-offset: 10px;
+  text-indent: 50%;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+ol {
+  font-style: italic;
+  font-size: 30px;
+}
+
+table,
+th,
+td {
+  /*display: none;*/
+  /*visibility: none;*/
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: darkblue
+}
+
+.para {
+  color: cyan;
+}
+
+body {
+  background-color: green;
+  opacity: 0.9;
+  /*background-image: url("https://moewalls.com/wp-content/uploads/2023/06/vegeta-ultra-ego-dragon-ball-super-thumb.jpg");*/
+}
+
+#margin {
+  margin: 20% 20% 20% 20%;
+}
+
+pre {
+  border-style: groove;
+  border-width: 3px;
+  border-color: red;
+  border-radius: 4px;
+}
