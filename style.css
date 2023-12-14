@@ -3,21 +3,6 @@
 
 
 /*we gave any named id to an element to style it*/
-#row1 {
-  background-color: yellow;
-}
-
-#row2 {
-  background-color: orange;
-}
-
-#row3 {
-  background-color: lightblue;
-}/*comment*/
-/*all of these elements below are selectors*/
-
-
-/*we gave any named id to an element to style it*/
 /*
 #row1 {
   background-color: yellow;
@@ -92,23 +77,35 @@ tr:hover {
   background-color: darkblue
 }
 
-.para {
-  color: cyan;
+.dropdown-button {
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-body {
-  background-color: green;
-  opacity: 0.9;
-  /*background-image: url("https://moewalls.com/wp-content/uploads/2023/06/vegeta-ultra-ego-dragon-ball-super-thumb.jpg");*/
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: lightblue;
+  min-width: 100px;
 }
 
-#margin {
-  margin: 20% 20% 20% 20%;
+.dropdown-menu a {
+  color: black;
+  padding: 5px 49px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
 }
 
-pre {
-  border-style: groove;
-  border-width: 3px;
-  border-color: red;
-  border-radius: 4px;
+.dropdown-menu a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover .dropdown-button {
+  background-color: grey;
 }
